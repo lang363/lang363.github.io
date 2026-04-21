@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>森牧远</title><link>https://lang363.github.io</link><description>彼方尚有荣光在 少年不惧岁月长</description><copyright>森牧远</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://smy.041206.xyz/pictures/avatar2.jpeg</url><title>avatar</title><link>https://lang363.github.io</link></image><lastBuildDate>Tue, 21 Apr 2026 07:55:49 +0000</lastBuildDate><managingEditor>森牧远</managingEditor><ttl>60</ttl><webMaster>森牧远</webMaster><item><title>内嵌测试</title><link>https://lang363.github.io/post/nei-qian-ce-shi.html</link><description>## b站
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>森牧远</title><link>https://smy.041206.xyz</link><description>彼方尚有荣光在 少年不惧岁月长</description><copyright>森牧远</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://smy.041206.xyz/pictures/avatar2.jpeg</url><title>avatar</title><link>https://smy.041206.xyz</link></image><lastBuildDate>Tue, 21 Apr 2026 08:57:50 +0000</lastBuildDate><managingEditor>森牧远</managingEditor><ttl>60</ttl><webMaster>森牧远</webMaster><item><title>内嵌测试</title><link>https://smy.041206.xyz/post/nei-qian-ce-shi.html</link><description>## b站
 `Gmeek-html&lt;iframe src='//player.bilibili.com/player.html?isOutside=true&amp;aid=1604800941&amp;bvid=BV1qm421M7Xs&amp;cid=1557311907&amp;p=1&amp;autoplay=0' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true' width='100%' height='460px'&gt;&lt;/iframe&gt;`
 
 `Gmeek-html&lt;iframe src='//player.bilibili.com/player.html?isOutside=true&amp;aid=116417940685868&amp;bvid=BV171dqBkEvo&amp;cid=37571528835&amp;p=1' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true'width='100%' height='460px'&gt;&lt;/iframe&gt;`
@@ -13,9 +13,9 @@
 `Gmeek-html&lt;img src='https://smy.041206.xyz/pictures/avatar2.jpeg'&gt;`
 
 
-`Gmeek-html&lt;img src='https://smy.041206.xyz/pictures/p1.jpeg'&gt;`。</description><guid isPermaLink="true">https://lang363.github.io/post/nei-qian-ce-shi.html</guid><pubDate>Tue, 21 Apr 2026 03:58:11 +0000</pubDate></item><item><title>头像</title><link>https://lang363.github.io/post/tou-xiang.html</link><description>[头像](https://smy.041206.xyz/pictures/avatar2.jpeg)
+`Gmeek-html&lt;img src='https://smy.041206.xyz/pictures/p1.jpeg'&gt;`。</description><guid isPermaLink="true">https://smy.041206.xyz/post/nei-qian-ce-shi.html</guid><pubDate>Tue, 21 Apr 2026 03:58:11 +0000</pubDate></item><item><title>头像</title><link>https://smy.041206.xyz/post/tou-xiang.html</link><description>[头像](https://smy.041206.xyz/pictures/avatar2.jpeg)
 
-&lt;img width='1024' height='1024' alt='Image' src='https://github.com/user-attachments/assets/f037950c-961c-4d11-93f4-3e89400e6ef2' /&gt;。</description><guid isPermaLink="true">https://lang363.github.io/post/tou-xiang.html</guid><pubDate>Tue, 21 Apr 2026 03:45:42 +0000</pubDate></item><item><title>测试</title><link>https://lang363.github.io/post/ce-shi.html</link><description># 标题一
+&lt;img width='1024' height='1024' alt='Image' src='https://github.com/user-attachments/assets/f037950c-961c-4d11-93f4-3e89400e6ef2' /&gt;。</description><guid isPermaLink="true">https://smy.041206.xyz/post/tou-xiang.html</guid><pubDate>Tue, 21 Apr 2026 03:45:42 +0000</pubDate></item><item><title>测试</title><link>https://smy.041206.xyz/post/ce-shi.html</link><description># 标题一
 测试
 测试
 测试
@@ -26,4 +26,4 @@
 
 ## 标题二
 测试
-### 标题三。</description><guid isPermaLink="true">https://lang363.github.io/post/ce-shi.html</guid><pubDate>Mon, 20 Apr 2026 11:21:06 +0000</pubDate></item><item><title>关于</title><link>https://lang363.github.io/about.html</link><description>- 2026年4月19日在github创建了此博客。</description><guid isPermaLink="true">https://lang363.github.io/about.html</guid><pubDate>Tue, 21 Apr 2026 02:54:46 +0000</pubDate></item></channel></rss>
+### 标题三。</description><guid isPermaLink="true">https://smy.041206.xyz/post/ce-shi.html</guid><pubDate>Mon, 20 Apr 2026 11:21:06 +0000</pubDate></item><item><title>关于</title><link>https://smy.041206.xyz/about.html</link><description>- 2026年4月19日在github创建了此博客。</description><guid isPermaLink="true">https://smy.041206.xyz/about.html</guid><pubDate>Tue, 21 Apr 2026 02:54:46 +0000</pubDate></item></channel></rss>
