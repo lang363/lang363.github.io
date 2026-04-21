@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>森牧远</title><link>https://lang363.github.io</link><description>彼方尚有荣光在 少年不惧岁月长</description><copyright>森牧远</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://smy.041206.xyz/pictures/avatar2.jpeg</url><title>avatar</title><link>https://lang363.github.io</link></image><lastBuildDate>Tue, 21 Apr 2026 04:03:29 +0000</lastBuildDate><managingEditor>森牧远</managingEditor><ttl>60</ttl><webMaster>森牧远</webMaster><item><title>文本测试</title><link>https://lang363.github.io/post/wen-ben-ce-shi.html</link><description>### 唱唱歌
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>森牧远</title><link>https://lang363.github.io</link><description>彼方尚有荣光在 少年不惧岁月长</description><copyright>森牧远</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://smy.041206.xyz/pictures/avatar2.jpeg</url><title>avatar</title><link>https://lang363.github.io</link></image><lastBuildDate>Tue, 21 Apr 2026 04:07:06 +0000</lastBuildDate><managingEditor>森牧远</managingEditor><ttl>60</ttl><webMaster>森牧远</webMaster><item><title>文本测试</title><link>https://lang363.github.io/post/wen-ben-ce-shi.html</link><description>### 唱唱歌
 **姑姑**
-_干干净净就
+_发广告_
 
 &gt; 
 
@@ -19,8 +19,8 @@ _干干净净就
 1. 哈哈哈
 2. 
 
-- [ ] 刚刚搞好
-- [ ] @lang363 
+- [x] 刚刚搞好
+- [ ✓] @lang363 
 - [ ] 
 @lang363 
 #3 
