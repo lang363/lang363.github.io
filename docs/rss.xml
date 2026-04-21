@@ -1,5 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>森牧远</title><link>https://lang363.github.io</link><description>彼方尚有荣光在 少年不惧岁月长</description><copyright>森牧远</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://smy.041206.xyz/pictures/avatar2.jpeg</url><title>avatar</title><link>https://lang363.github.io</link></image><lastBuildDate>Tue, 21 Apr 2026 04:00:53 +0000</lastBuildDate><managingEditor>森牧远</managingEditor><ttl>60</ttl><webMaster>森牧远</webMaster><item><title>内嵌测试</title><link>https://lang363.github.io/post/nei-qian-ce-shi.html</link><description>## b站
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>森牧远</title><link>https://lang363.github.io</link><description>彼方尚有荣光在 少年不惧岁月长</description><copyright>森牧远</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://smy.041206.xyz/pictures/avatar2.jpeg</url><title>avatar</title><link>https://lang363.github.io</link></image><lastBuildDate>Tue, 21 Apr 2026 04:03:29 +0000</lastBuildDate><managingEditor>森牧远</managingEditor><ttl>60</ttl><webMaster>森牧远</webMaster><item><title>文本测试</title><link>https://lang363.github.io/post/wen-ben-ce-shi.html</link><description>### 唱唱歌
+**姑姑**
+_干干净净就
+
+&gt; 
+
+&gt; 刚刚和姐姐
+
+&gt; 
+
+&gt; 
+`VB宝宝
+
+1. 刚刚回家_`
+
+- 刚刚好
+
+1. 哈哈哈
+2. 
+
+- [ ] 刚刚搞好
+- [ ] @lang363 
+- [ ] 
+@lang363 
+#3 
+&gt; [!NOTE]
+&gt; 家园
+&gt; [!TIP]
+&gt; 估计  。</description><guid isPermaLink="true">https://lang363.github.io/post/wen-ben-ce-shi.html</guid><pubDate>Tue, 21 Apr 2026 04:03:00 +0000</pubDate></item><item><title>内嵌测试</title><link>https://lang363.github.io/post/nei-qian-ce-shi.html</link><description>## b站
 `Gmeek-html&lt;iframe src='//player.bilibili.com/player.html?isOutside=true&amp;aid=1604800941&amp;bvid=BV1qm421M7Xs&amp;cid=1557311907&amp;p=1&amp;autoplay=0' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true' width='100%' height='460px'&gt;&lt;/iframe&gt;`
 
 `Gmeek-html&lt;iframe src='//player.bilibili.com/player.html?isOutside=true&amp;aid=116417940685868&amp;bvid=BV171dqBkEvo&amp;cid=37571528835&amp;p=1' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true'&gt;&lt;/iframe&gt;`
