@@ -13,7 +13,7 @@
     "urlMode":"pinyin",
     "bottomText":"❤转载请注明出处❤",
     "needComment":1,
-    "head":"<script defer src="http://041206.xyz:3000/script.js" data-website-id="f5cedaeb-38bf-49d2-bf90-af8dceb9549a"></script>",
+    "head":"<script defer src="<script defer src="http://041206.xyz:3000/script.js" data-website-id="f5cedaeb-38bf-49d2-bf90-af8dceb9549a"></script>",
     "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>",
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/articletoc.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
     "singlePage":["about"]
