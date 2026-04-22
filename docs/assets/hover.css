@@ -1,12 +1,12 @@
-
 .SideNav-item:hover {
-    /* 使用亮金(#f1c40f)与黄金(#ffd700)组合，杜绝发黑 */
-    background: linear-gradient(90deg, #ffd700 0%, #fff5b7 50%, #ffd700 100%) !important;
-    
-    /* 动作保留 */
-    transform: translateX(5px) !important;
-    border-left: 3px solid #027aff !important;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+  /* 白金渐变，低调奢华 */
+  background: linear-gradient(90deg, 
+    #ffffff 0%, 
+    #fff8e7 50%, 
+    #ffe4a1 100%
+  ) !important;
+  
+  transform: translateX(5px) !important;
+  border-left: 3px solid #ffd700 !important;
+  box-shadow: 0 4px 12px rgba(255, 215, 0, 0.12) !important;
 }
-
-
