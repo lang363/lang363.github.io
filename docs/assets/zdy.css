@@ -1,4 +1,4 @@
 
-a.blogTitle {display: inline-block !important;font-size: 22px !important;}/*优化手机端不显示博客顶部LOGO文字*/
+a.blogTitle {display: inline-block !important;font-size: 25px !important;}/*优化手机端不显示博客顶部LOGO文字*/
 .LabelTime {display: inline-block !important;}/*调节文章标签到手机显示不全或者不显示后面的日期*/
 
