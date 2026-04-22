@@ -13,7 +13,7 @@
     "urlMode":"pinyin",
     "bottomText":"❤转载请注明出处❤",
     "needComment":1,
-    "allHead":"<script src='/assets/vercount.js'></script><script src='/assets/season.js'></script><script src='/assets/tagselect.js'></script><script src='/assets/season.js'></script><link rel=\"stylesheet\" href='/assets/tagbreathe.css'><link rel=\"stylesheet\" href='/assets/glass.css'>",
+    "allHead":"<script src='/assets/vercount.js'></script><script src='/assets/tagselect.js'></script><script src='/assets/season.js'></script><link rel=\"stylesheet\" href='/assets/tagbreathe.css'><link rel=\"stylesheet\" href='/assets/glass.css'>",
     "script":"<script src='/assets/articletoc.js'></script><script src='/assets/lightbox.js'></script><script src='/assets/backtop.js'></script>",
     "singlePage":["about","link"]
 }
