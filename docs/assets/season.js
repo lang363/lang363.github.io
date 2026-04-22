@@ -58,9 +58,9 @@
             ctx.stroke();
         }
         function initSpring() {
-            particleCount = 50;
+            particleCount = 10;
             particleColor = 'rgba(100, 150, 255, 0.6)';
-            particleSpeed = 2;
+            particleSpeed = 0.5;
             particleSize = 1.5;
             particles = [];
             for (let i = 0; i < particleCount; i++) {
