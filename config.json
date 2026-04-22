@@ -14,6 +14,6 @@
     "bottomText":"❤转载请注明出处❤",
     "needComment":1,
     "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script><script src='/assets/season.js'></script><link rel=\"stylesheet\" href='/assets/zdy.css'>",
-    "script":"<script src='/assets/articletoc.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
+    "script":"<script src='/assets/articletoc.js'></script><script src='/assets/lightbox.js'></script>",
     "singlePage":["about","link"]
 }
