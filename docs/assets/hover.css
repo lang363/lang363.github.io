@@ -3,7 +3,7 @@
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
     border-left: 3px solid transparent !important;
     background-color: transparent !important;
-    border-radius: 12px !important;  /* 增大圆角 */
+    border-radius: 16px !important;  /* 增大圆角 */
     margin-bottom: 4px !important;
 }
 
@@ -17,6 +17,6 @@
 /* 外层容器 */
 .SideNav,
 .SideNav-list {
-    border-radius: 12px !important;
+    border-radius: 16px !important;
     overflow: hidden !important;
 }
