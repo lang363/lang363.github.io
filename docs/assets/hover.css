@@ -1,48 +1,133 @@
-/* ========== 目录容器 ========== */
+/* ========== 目录容器：高级卡片 ========== */
 .SideNav,
 .blog-sidebar,
 [aria-label="Sidebar"] {
-    border-radius: 12px !important;
+    /* 暖白背景，比纯白更有质感 */
+    background: #faf9f7 !important;
+    
+    /* 超大圆角，现代感 */
+    border-radius: 16px !important;
+    
+    /* 极淡边框 + 弥散阴影，营造悬浮感 */
+    border: 1px solid rgba(0, 0, 0, 0.04) !important;
+    box-shadow: 
+        0 0 0 1px rgba(0,0,0,0.02),
+        0 4px 24px rgba(0, 0, 0, 0.04),
+        0 1px 2px rgba(0, 0, 0, 0.02) !important;
+    
+    /* 呼吸感内边距 */
+    padding: 12px !important;
     overflow: hidden !important;
-    padding: 8px !important;          /* 容器内边距，防止圆角被挤 */
-    background: #ffffff !important;
-    border: 1px solid rgba(0, 0, 0, 0.06) !important;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04) !important;
 }
 
-/* ========== 文章条目 ========== */
+/* ========== 文章条目：极简行 ========== */
 .SideNav-item {
-    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
-    border-left: none !important;      /* 去掉左侧边框，更干净 */
-    background-color: transparent !important;
-    border-radius: 8px !important;      /* 适中圆角，不夸张 */
-    margin-bottom: 6px !important;      /* 增大间距，圆角不打架 */
-    padding: 10px 14px !important;      /* 增加内边距，更舒展 */
-    color: #333 !important;
+    /* 去除所有默认边框 */
+    border: none !important;
+    border-left: none !important;
+    
+    /* 适中圆角，与容器呼应但不抢戏 */
+    border-radius: 10px !important;
+    
+    /* 宽松内边距，内容更舒展 */
+    padding: 12px 16px !important;
+    
+    /* 字重正常，颜色深灰而非纯黑 */
+    color: #4a4a4a !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    
+    /* 间距让条目独立呼吸 */
+    margin-bottom: 4px !important;
+    
+    /* 透明背景，融入容器 */
+    background: transparent !important;
+    
+    /* 丝滑过渡 */
+    transition: 
+        background-color 0.2s ease,
+        transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
+        box-shadow 0.2s ease !important;
+    
+    /* 相对定位，为光晕做准备 */
+    position: relative !important;
+    overflow: hidden !important;
 }
 
 .SideNav-item:last-child {
     margin-bottom: 0 !important;
 }
 
-/* ========== Hover 效果：极简金黄 ========== */
+/* ========== Hover：光晕浮现效果 ========== */
 .SideNav-item:hover {
-    /* 柔和金黄色，不刺眼 */
-    background: linear-gradient(135deg, #fff9e6 0%, #ffefc2 100%) !important;
+    /* 暖沙色背景，极低饱和金黄 */
+    background: rgba(245, 230, 200, 0.4) !important;
     
-    /* 微位移 + 柔和阴影 */
-    transform: translateX(4px) !important;
-    box-shadow: 0 2px 8px rgba(241, 196, 15, 0.15) !important;
+    /* 弹性位移，比线性更生动 */
+    transform: translateX(6px) !important;
     
-    /* 文字颜色微调 */
-    color: #b8860b !important;
+    /* 内发光效果：左侧金色光晕 */
+    box-shadow: 
+        inset 3px 0 0 0 #d4af37,
+        0 2px 12px rgba(212, 175, 55, 0.08) !important;
+    
+    /* 文字变暖金 */
+    color: #8b6914 !important;
 }
 
-/* ========== 当前选中/激活状态 ========== */
+/* ========== 选中状态：高级金黄 ========== */
 .SideNav-item[aria-current="page"],
-.SideNav-item.selected {
-    background: linear-gradient(135deg, #f1c40f 0%, #ffd700 100%) !important;
-    color: #5a4a00 !important;
+.SideNav-item.selected,
+.SideNav-item:active {
+    /* 香槟金渐变，从左上到右下 */
+    background: linear-gradient(
+        135deg,
+        #f5e6c8 0%,
+        #f0d78c 50%,
+        #e8c547 100%
+    ) !important;
+    
+    /* 文字深褐金，确保对比度 */
+    color: #5c4b1e !important;
     font-weight: 600 !important;
-    box-shadow: 0 2px 8px rgba(241, 196, 15, 0.25) !important;
+    
+    /* 精致阴影 */
+    box-shadow: 
+        0 1px 3px rgba(212, 175, 55, 0.2),
+        0 4px 12px rgba(212, 175, 55, 0.15) !important;
+    
+    /* 左侧金色指示条，内嵌而非外突 */
+    box-shadow: 
+        inset 3px 0 0 0 #b8860b,
+        0 2px 12px rgba(212, 175, 55, 0.12) !important;
+}
+
+/* ========== 标签/徽章样式（配合你的"测试"标签） ========== */
+.SideNav-item .Label,
+.SideNav-item .badge,
+.SideNav-item [class*="label"] {
+    /* 标签也走暖色系 */
+    background: rgba(212, 175, 55, 0.12) !important;
+    color: #9a7b2c !important;
+    border-radius: 6px !important;
+    padding: 2px 8px !important;
+    font-size: 11px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.02em !important;
+    border: 1px solid rgba(212, 175, 55, 0.15) !important;
+}
+
+/* ========== 数字徽章（配合你的"2"） ========== */
+.SideNav-item .Counter,
+.SideNav-item [class*="counter"] {
+    background: #e8c547 !important;
+    color: #5c4b1e !important;
+    border-radius: 50% !important;
+    min-width: 20px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+    text-align: center !important;
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08) !important;
 }
