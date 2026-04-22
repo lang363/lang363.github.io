@@ -60,7 +60,7 @@
         function initSpring() {
             particleCount = 200;
             particleColor = 'rgba(100, 150, 255, 0.6)';
-            particleSpeed = 0.5;
+            particleSpeed = 0.05;
             particleSize = 1.5;
             particles = [];
             for (let i = 0; i < particleCount; i++) {
