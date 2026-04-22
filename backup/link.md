@@ -1,1 +1,1 @@
-[豆包](doubao.com)
+[豆包](https://doubao.com)
