@@ -6,7 +6,7 @@
     }
     50% {
         box-shadow: 0 0 15px rgba(2, 122, 255, 0.6);
-        transform: scale(1.3); /* 既然 padding 没了，缩放稍微大一点补偿视觉 */
+        transform: scale(1.2); /* 既然 padding 没了，缩放稍微大一点补偿视觉 */
     }
     100% {
         box-shadow: 0 0 5px rgba(2, 122, 255, 0.2);
