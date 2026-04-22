@@ -1,21 +1,35 @@
-/* 文章条目：纯静态金黄色悬浮（无发黑感） */
+/* ========== 目录容器 ========== */
+.SideNav,
+.blog-sidebar {
+    border-radius: 20px !important;      /* 大圆角更柔和 */
+    overflow: hidden !important;
+    padding: 12px !important;              /* 内边距让圆角更明显 */
+    background: #fafafa !important;       /* 轻微背景色突出轮廓 */
+    border: 1px solid rgba(0,0,0,0.05) !important;
+}
+
+/* ========== 文章条目 ========== */
 .SideNav-item {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
     border-left: 3px solid transparent !important;
     background-color: transparent !important;
-    border-radius: 6px !important;
-    margin-bottom: 4px !important;
+    border-radius: 10px !important;        /* 条目圆角 */
+    margin-bottom: 6px !important;         /* 稍大间距让圆角不拥挤 */
 }
 
 .SideNav-item:hover {
-    /* 使用亮金(#f1c40f)与黄金(#ffd700)组合，杜绝发黑 */
     background: linear-gradient(90deg, #f1c40f, #ffd700, #f1c40f) !important;
-    
-    /* 动作保留 */
     transform: translateX(5px) !important;
     border-left: 3px solid #027aff !important;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+    border-radius: 10px !important;
 }
 
+/* 第一个和最后一个条目特殊处理，避免圆角与容器冲突 */
+.SideNav-item:first-child {
+    border-radius: 10px 10px 10px 10px !important;
+}
 
-
+.SideNav-item:last-child {
+    margin-bottom: 0 !important;
+}
