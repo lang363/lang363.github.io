@@ -1,0 +1,21 @@
+/* 文章条目：纯静态金黄色悬浮（无发黑感） */
+.SideNav-item {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    border-left: 3px solid transparent !important;
+    background-color: transparent !important;
+    border-radius: 6px !important;
+    margin-bottom: 4px !important;
+}
+
+.SideNav-item:hover {
+    /* 使用亮金(#f1c40f)与黄金(#ffd700)组合，杜绝发黑 */
+    background: linear-gradient(90deg, #f1c40f, #ffd700, #f1c40f) !important;
+    
+    /* 动作保留 */
+    transform: translateX(5px) !important;
+    border-left: 3px solid #027aff !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+}
+
+
+
