@@ -24,7 +24,7 @@
 }
 
 /* 标题布局优化 */
-.blogTitle, .postTitle {
+/*.blogTitle, .postTitle {
     display: block !important;
     font-size: clamp(18px, 5vw, 24px) !important;
     font-weight: bold !important;
@@ -46,7 +46,7 @@
     gap: 12px !important;
     flex-shrink: 0 !important;
     z-index: 10000 !important;
-}
+}*/
 
 /* --- 回归图1布局：移除 width 95% 和 max-width --- */
 #content, .main {
