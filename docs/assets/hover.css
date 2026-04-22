@@ -1,35 +1,48 @@
 /* ========== 目录容器 ========== */
 .SideNav,
-.blog-sidebar {
-    border-radius: 20px !important;      /* 大圆角更柔和 */
+.blog-sidebar,
+[aria-label="Sidebar"] {
+    border-radius: 12px !important;
     overflow: hidden !important;
-    padding: 12px !important;              /* 内边距让圆角更明显 */
-    background: #fafafa !important;       /* 轻微背景色突出轮廓 */
-    border: 1px solid rgba(0,0,0,0.05) !important;
+    padding: 8px !important;          /* 容器内边距，防止圆角被挤 */
+    background: #ffffff !important;
+    border: 1px solid rgba(0, 0, 0, 0.06) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04) !important;
 }
 
 /* ========== 文章条目 ========== */
 .SideNav-item {
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
-    border-left: 3px solid transparent !important;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    border-left: none !important;      /* 去掉左侧边框，更干净 */
     background-color: transparent !important;
-    border-radius: 10px !important;        /* 条目圆角 */
-    margin-bottom: 6px !important;         /* 稍大间距让圆角不拥挤 */
-}
-
-.SideNav-item:hover {
-    background: linear-gradient(90deg, #f1c40f, #ffd700, #f1c40f) !important;
-    transform: translateX(5px) !important;
-    border-left: 3px solid #027aff !important;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
-    border-radius: 10px !important;
-}
-
-/* 第一个和最后一个条目特殊处理，避免圆角与容器冲突 */
-.SideNav-item:first-child {
-    border-radius: 10px 10px 10px 10px !important;
+    border-radius: 8px !important;      /* 适中圆角，不夸张 */
+    margin-bottom: 6px !important;      /* 增大间距，圆角不打架 */
+    padding: 10px 14px !important;      /* 增加内边距，更舒展 */
+    color: #333 !important;
 }
 
 .SideNav-item:last-child {
     margin-bottom: 0 !important;
+}
+
+/* ========== Hover 效果：极简金黄 ========== */
+.SideNav-item:hover {
+    /* 柔和金黄色，不刺眼 */
+    background: linear-gradient(135deg, #fff9e6 0%, #ffefc2 100%) !important;
+    
+    /* 微位移 + 柔和阴影 */
+    transform: translateX(4px) !important;
+    box-shadow: 0 2px 8px rgba(241, 196, 15, 0.15) !important;
+    
+    /* 文字颜色微调 */
+    color: #b8860b !important;
+}
+
+/* ========== 当前选中/激活状态 ========== */
+.SideNav-item[aria-current="page"],
+.SideNav-item.selected {
+    background: linear-gradient(135deg, #f1c40f 0%, #ffd700 100%) !important;
+    color: #5a4a00 !important;
+    font-weight: 600 !important;
+    box-shadow: 0 2px 8px rgba(241, 196, 15, 0.25) !important;
 }
