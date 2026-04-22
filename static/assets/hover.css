@@ -1,7 +1,7 @@
 
 .SideNav-item:hover {
     /* 使用亮金(#f1c40f)与黄金(#ffd700)组合，杜绝发黑 */
-    background: linear-gradient(90deg, #f1c40f, #ffd700, #f1c40f) !important;
+    background: linear-gradient(90deg, #ffd700 0%, #fff5b7 50%, #ffd700 100%) !important;
     
     /* 动作保留 */
     transform: translateX(5px) !important;
