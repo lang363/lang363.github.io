@@ -61,7 +61,7 @@
             particleCount = 200;
             particleColor = 'rgba(100, 150, 255, 0.6)';
             particleSpeed = 0.05;
-            particleSize = 1.5;
+            particleSize = 0.8;
             particles = [];
             for (let i = 0; i < particleCount; i++) {
                 particles.push({
