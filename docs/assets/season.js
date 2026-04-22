@@ -19,7 +19,7 @@
         canvas.style.left = '0';
         canvas.style.width = '100%';
         canvas.style.height = '100%';
-        canvas.style.zIndex = '999';  // 置于最底层可改999就在内容前面显示
+        canvas.style.zIndex = '-1';  // 置于最底层可改999就在内容前面显示
         canvas.style.pointerEvents = 'none'; // 让点击穿透
         document.body.appendChild(canvas);
 
@@ -58,9 +58,9 @@
             ctx.stroke();
         }
         function initSpring() {
-            particleCount = 10;
+            particleCount = 250;
             particleColor = 'rgba(100, 150, 255, 0.6)';
-            particleSpeed = 0.5;
+            particleSpeed = 5;
             particleSize = 1.5;
             particles = [];
             for (let i = 0; i < particleCount; i++) {
@@ -323,4 +323,3 @@
         });
     });
 })();
-
