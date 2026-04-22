@@ -13,7 +13,7 @@
     "urlMode":"pinyin",
     "bottomText":"❤转载请注明出处❤",
     "needComment":1,
-    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script><script src='/season.js'></script>",
+    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script><script src='/assets/season.js'></script>",
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/articletoc.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
     "singlePage":["about"]
 }
