@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
         style.innerHTML = `
         
         html {    
-            background: url('../home-bg.jpg') no-repeat center center fixed;
+            background: url('/pictures/p1.jpeg') no-repeat center center fixed;
             background-size: cover;
         }
 
