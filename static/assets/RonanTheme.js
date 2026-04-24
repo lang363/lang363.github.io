@@ -17,24 +17,20 @@ document.addEventListener('DOMContentLoaded', function() {
         body {
             min-width: 200px;
             max-width: 885px;
-            margin: 30px auto;
+            margin: 30px auto;   /*设置所有外边距离 */
             font-size: 16px;
             font-family: sans-serif;
             line-height: 1.25;
-            /* 液态玻璃效果 */
-            background: rgba(255, 255, 255, 0.25);
-            backdrop-filter: blur(20px) saturate(180%);
-            -webkit-backdrop-filter: blur(20px) saturate(180%);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            border-radius: 10px;
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            background: rgba(237, 239, 233, 0.84); 
+            border-radius: 10px; /* 圆角边框 */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
             overflow: auto;
         }
 
         /* 主页博客列表圆角边框 */
         .SideNav {
-            background: rgba(255, 255, 255, 0.6);
-            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.6); /* 白色背景，透明度60% */
+            border-radius: 10px; /* 圆角边框 */
             min-width: unset;
         }
 
@@ -78,17 +74,13 @@ document.addEventListener('DOMContentLoaded', function() {
         body {
             min-width: 200px;
             max-width: 883px;
-            margin: 30px auto;
+            margin: 30px auto;   /*设置所有外边距离 */
             font-size: 16px;
             font-family: sans-serif;
             line-height: 1.25;
-            /* 液态玻璃效果 */
-            background: rgba(255, 255, 255, 0.25);
-            backdrop-filter: blur(20px) saturate(180%);
-            -webkit-backdrop-filter: blur(20px) saturate(180%);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            border-radius: 10px;
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            background: rgba(237, 239, 233, 0.84); 
+            border-radius: 10px; /* 圆角边框 */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
             overflow: auto;
         }
 
@@ -106,8 +98,8 @@ document.addEventListener('DOMContentLoaded', function() {
         
         /* 代码块 */
         .markdown-body .highlight pre, .markdown-body pre {
-            color: rgb(0, 0, 0);
-            background-color: rgba(243, 244, 243, 0.967);
+            color: rgb(0, 0, 0);          /* 代码块内代码颜色 */
+            background-color: rgba(243, 244, 243, 0.967);       /* 代码块内框颜色 */
             box-shadow: 0 10px 30px 0 rgba(222, 217, 217, 0.4);
             padding-top: 20px; 
             border-radius: 8px;
@@ -145,23 +137,19 @@ document.addEventListener('DOMContentLoaded', function() {
         body {
             min-width: 200px;
             max-width: 885px;
-            margin: 30px auto;
+            margin: 30px auto;   /*设置所有外边距离 */
             font-size: 16px;
             font-family: sans-serif;
             line-height: 1.25;
-            /* 液态玻璃效果 */
-            background: rgba(255, 255, 255, 0.25);
-            backdrop-filter: blur(20px) saturate(180%);
-            -webkit-backdrop-filter: blur(20px) saturate(180%);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            border-radius: 10px;
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            background: rgba(237, 239, 233, 0.84); 
+            border-radius: 10px; /* 圆角边框 */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
             overflow: auto;
         }
         
         .SideNav {
-            background: rgba(255, 255, 255, 0.6);
-            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.6); /* 白色背景，透明度60% */
+            border-radius: 10px; /* 圆角边框 */
             min-width: unset;
         }
         
