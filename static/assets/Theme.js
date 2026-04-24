@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const THEME_BG_MODE_MOBILE = 'video';  // 'video' | 'image' | 'auto'
 
     // 资源路径（相对 docs/）
-    const THEME_BG_IMAGE_DESKTOP = '/img/电脑2.jpg';
-    const THEME_BG_VIDEO_DESKTOP = '/img/电脑1.mp4';
-    const THEME_BG_IMAGE_MOBILE = '/img/手机1.jpg'; // 建议换更小体积的图片
-    const THEME_BG_VIDEO_MOBILE = '/img/手机2.mp4'; // 手机端如需视频可换更小体积
+    const THEME_BG_IMAGE_DESKTOP = '/pictures/bg2.jpeg';
+    const THEME_BG_VIDEO_DESKTOP = '/pictures/bg2.jpeg';
+    const THEME_BG_IMAGE_MOBILE = '/pictures/bg2.jpeg'; // 建议换更小体积的图片
+    const THEME_BG_VIDEO_MOBILE = '/pictures/bg2.jpeg'; // 手机端如需视频可换更小体积
 
     // 更稳：优先使用 currentScript（某些环境 querySelector 取不到自己）
     const themeScriptSrc = (document.currentScript && document.currentScript.src)
@@ -392,7 +392,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let footer = document.getElementById('footer');
         let sponsorInfo = document.createElement('div');
         sponsorInfo.className = 'sponsor-info';
-        sponsorInfo.innerHTML = '本站由 <a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="../img/logo.png" width="45" height="13" style="fill: currentColor;"></a> 提供 CDN 加速/云存储服务';
+        sponsorInfo.innerHTML = '本站由 <a target="_blank" href="https://smy.041206.xyz"><img src="/pictures/avatar3.png" width="45" height="13" style="fill: currentColor;"></a> 提供 CDN 加速/云存储服务';
         footer.insertBefore(sponsorInfo, footer.firstChild);
     }
 
@@ -543,7 +543,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let footer = document.getElementById('footer');
         let sponsorInfo = document.createElement('div');
         sponsorInfo.className = 'sponsor-info';
-        sponsorInfo.innerHTML = '本站由 <a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="../img/logo.png" width="45" height="13" style="fill: currentColor;"></a> 提供 CDN 加速/云存储服务';
+        sponsorInfo.innerHTML = '本站由 <a target="_blank" href="https://smy.041206.xyz"><img src="/pictures/avatar3.png" width="45" height="13" style="fill: currentColor;"></a> 提供 CDN 加速/云存储服务';
         footer.insertBefore(sponsorInfo, footer.firstChild);
 
         // ESA AI 验证码：仅保护“文章正文图片”，验证成功才加载（本篇一次即可）
@@ -716,7 +716,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let footer = document.getElementById('footer');
         let sponsorInfo = document.createElement('div');
         sponsorInfo.className = 'sponsor-info';
-        sponsorInfo.innerHTML = '本站由 <a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="../img/logo.png" width="45" height="13" style="fill: currentColor;"></a> 提供 CDN 加速/云存储服务';
+        sponsorInfo.innerHTML = '本站由 <a target="_blank" href="https://smy.041206.xyz"><img src="/pictures/avatar3.png" width="45" height="13" style="fill: currentColor;"></a> 提供 CDN 加速/云存储服务';
         footer.insertBefore(sponsorInfo, footer.firstChild);
     
         // 搜索框回车触发
