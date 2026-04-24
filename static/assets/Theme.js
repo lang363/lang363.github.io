@@ -376,7 +376,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         /* 赞助商信息样式 */
-        .sponsor-info {
+        /*.sponsor-info {
             text-align: center;
             margin-top: 20px;
             font-size: small;
@@ -387,15 +387,15 @@ document.addEventListener('DOMContentLoaded', function() {
         ensureBackgroundVideo();
         ensureBackgroundOverlay();
         ensureGlassShell();
-
+        
         // 添加赞助商信息到页脚
-        let footer = document.getElementById('footer');
+     /*   let footer = document.getElementById('footer');
         let sponsorInfo = document.createElement('div');
         sponsorInfo.className = 'sponsor-info';
         sponsorInfo.innerHTML = '本站由 <a target="_blank" href="https://smy.041206.xyz"><img src="/pictures/avatar3.png" width="45" height="13" style="fill: currentColor;"></a> 提供 CDN 加速/云存储服务';
         footer.insertBefore(sponsorInfo, footer.firstChild);
     }
-
+*/
 
     //文章页主题------------------------------------------------------------------------------
     
@@ -540,14 +540,14 @@ document.addEventListener('DOMContentLoaded', function() {
         ensureBackgroundOverlay();
         ensureGlassShell();
         // 添加赞助商信息到页脚
-        let footer = document.getElementById('footer');
+       /* let footer = document.getElementById('footer');
         let sponsorInfo = document.createElement('div');
         sponsorInfo.className = 'sponsor-info';
         sponsorInfo.innerHTML = '本站由 <a target="_blank" href="https://smy.041206.xyz"><img src="/pictures/avatar3.png" width="45" height="13" style="fill: currentColor;"></a> 提供 CDN 加速/云存储服务';
         footer.insertBefore(sponsorInfo, footer.firstChild);
-
+*/
         // ESA AI 验证码：仅保护“文章正文图片”，验证成功才加载（本篇一次即可）
-        if (currentUrl.includes('/post/')) {
+     /*   if (currentUrl.includes('/post/')) {
             window.ESAAIImageCaptchaConfig = window.ESAAIImageCaptchaConfig || {
                 // 必填：从 ESA 控制台获取（身份标/场景ID）
                 prefix: "esa-pgrds6as5i",
@@ -574,7 +574,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }, 1500);
         }
     } 
-
+*/
 
     // 搜索页主题--------------------------------------------------------------------
     
@@ -713,12 +713,12 @@ document.addEventListener('DOMContentLoaded', function() {
         ensureBackgroundOverlay();
         ensureGlassShell();
         // 添加赞助商信息到页脚
-        let footer = document.getElementById('footer');
+    /*    let footer = document.getElementById('footer');
         let sponsorInfo = document.createElement('div');
         sponsorInfo.className = 'sponsor-info';
         sponsorInfo.innerHTML = '本站由 <a target="_blank" href="https://smy.041206.xyz"><img src="/pictures/avatar3.png" width="45" height="13" style="fill: currentColor;"></a> 提供 CDN 加速/云存储服务';
         footer.insertBefore(sponsorInfo, footer.firstChild);
-    
+    */
         // 搜索框回车触发
         let input = document.getElementsByClassName("form-control subnav-search-input float-left")[0];
         let button = document.getElementsByClassName("btn float-left")[0];
