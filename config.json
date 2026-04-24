@@ -14,7 +14,7 @@
     "bottomText":"❤转载请注明出处❤",
     "needComment":1,
     "showPostSource":0,
-    "allHead":"<script src='/assets/RonanTheme.js'></script><script src='/assets/sakuraPlus.js'></script><script src='/assets/vercount.js'></script><script src='/assets/tagselect.js'></script><script src='/assets/date.js'></script><script src='/assets/newwindow.js'></script><script src='/assets/link.js'></script><link rel=\"stylesheet\" href='/assets/tagbreathe.css'><link rel=\"stylesheet\" href='/assets/link.css'><link rel=\"stylesheet\" href='/assets/glass.css'>",
-    "script":"<script src='/assets/articletoc.js'></script><script src='/assets/backtop.js'></script><script src='/assets/lightbox.js'></script>",
+    "allHead":"<script src='/assets/RonanTheme.js'></script><script src='/assets/sakuraPlus.js'></script><script src='/assets/vercount.js'></script><script src='/assets/tagselect.js'></script><script src='/assets/date.js'></script><script src='/assets/newwindow.js'></script><script src='/assets/link.js'></script><link rel=\"stylesheet\" href='/assets/tagbreathe.css'><link rel=\"stylesheet\" href='/assets/link.css'>",
+    "script":"<script src='/plugins/ArticleTOC.js'></script><script src='/plugins/lightbox..js'></script>",
     "singlePage":["about","link"]
 }
