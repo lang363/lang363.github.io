@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let style = document.createElement("style");
         style.innerHTML = `
         html {    
-            background: url('/pictures/p1.jpeg') no-repeat center center fixed;
+            background: url('/pictures/bg1.jpg') no-repeat center center fixed;
             background-size: cover;
         }
         
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
         style.innerHTML = `
 
         html {    
-            background: url('/pictures/p1.jpeg') no-repeat center center fixed;
+            background: url('/pictures/bg1.jpg') no-repeat center center fixed;
             background-size: cover;
         }
 
@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
         style.innerHTML = `
         
         html {    
-            background: url('/pictures/p1.jpeg') no-repeat center center fixed;
+            background: url('/pictures/bg1.jpg') no-repeat center center fixed;
             background-size: cover;
         }
 
