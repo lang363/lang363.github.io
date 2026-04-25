@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const THEME_BG_MODE_MOBILE = 'video';  // 'video' | 'image' | 'auto'
 
     // 资源路径（相对 docs/）
-    const THEME_BG_IMAGE_DESKTOP = '/img/电脑2.jpg';
+    const THEME_BG_IMAGE_DESKTOP = '/img/电脑A.jpeg';
     const THEME_BG_VIDEO_DESKTOP = '/img/电脑1.mp4';
-    const THEME_BG_IMAGE_MOBILE = '/img/手机1.jpg'; // 建议换更小体积的图片
+    const THEME_BG_IMAGE_MOBILE = '/img/电脑A.jpeg'; // 建议换更小体积的图片
     const THEME_BG_VIDEO_MOBILE = '/img/手机2.mp4'; // 手机端如需视频可换更小体积
 
     // 更稳：优先使用 currentScript（某些环境 querySelector 取不到自己）
