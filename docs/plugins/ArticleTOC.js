@@ -9,7 +9,7 @@ function loadResource(type, attributes) {
 function createTOC() {
     const tocElement = document.createElement('div');
     tocElement.className = 'toc';
-    tocElement.classList.add('show');
+    // 移除：tocElement.classList.add('show');
         
     const contentContainer = document.querySelector('.markdown-body');
     if (!contentContainer) return;
@@ -58,7 +58,7 @@ function highlightTOC() {
         currentHeading.classList.add('active-toc');
 
         // 只滚动目录自身，避免 scrollIntoView 影响页面滚动（某些环境会导致滚动跳跃/锁死）
-        if (tocElement) {
+        if (tocElement && tocElement.classList.contains('show')) {
             const linkTop = currentHeading.offsetTop;
             const linkHeight = currentHeading.offsetHeight || 0;
             const targetTop = linkTop - (tocElement.clientHeight / 2) + (linkHeight / 2);
@@ -174,26 +174,24 @@ document.addEventListener("DOMContentLoaded", function() {
             cursor: pointer;
             visibility: hidden;
             background-color: white;
-            padding: 10px;                            /* 可选：增加一些内边距，使按钮更易点击 */
-            border-radius: 8px;                       /* 可选：使按钮有圆角 */
-            border: 1px solid var(--toc-border);      /* 可选：增加边框，使其更明显 */
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid var(--toc-border);
         }
         
         .active-toc {
             font-weight: bold;
             border-radius: 8px;
-            background-color: var(--toc-hover);  /* 根据你的设计，可以定制高亮颜色 */
-            padding-left: 5px;  /* 可选：增加左边距以突出当前项目 */
+            background-color: var(--toc-hover);
+            padding-left: 5px;
         }
     `;
     loadResource('style', {css: css});
 
     const tocIcon = document.createElement('div');
     tocIcon.className = 'toc-icon';
-    
-    tocIcon.classList.add('active');
-    
-    tocIcon.textContent = '✖';
+    // 移除：tocIcon.classList.add('active');
+    tocIcon.textContent = '☰';
     tocIcon.onclick = (e) => {
         e.stopPropagation();
         toggleTOC();
@@ -215,7 +213,6 @@ document.addEventListener("DOMContentLoaded", function() {
         const tocElement = document.querySelector('.toc');
         if (tocElement && tocElement.classList.contains('show') && !tocElement.contains(e.target) && e.target.classList.contains('toc-icon')) {
             toggleTOC();
-            
         }
     });
 });
