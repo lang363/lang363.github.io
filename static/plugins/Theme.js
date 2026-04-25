@@ -360,7 +360,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 鼠标放到博客标题后会高亮 */
         .SideNav-item:hover {
-            background: linear-gradient(135deg, rgba(195, 228, 227, 0.72), rgba(255, 255, 255, 0.55));
+            background: linear-gradient(90deg, 
+    #ffffff 0%, 
+    #fff8e7 50%, 
+    #ffe4a1 100%
+  );
             border-radius: 12px;
             transform: translateY(-1px) scale(1.01);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16);
