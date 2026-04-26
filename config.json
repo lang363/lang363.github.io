@@ -17,7 +17,7 @@
     "themeMode":"fix",
     "dayTheme":"light",
     "nightTheme":"github-light",
-    "allHead":"<script src='/plugins/Theme.js'></script></script><script src='/assets/vercount.js'></script></script><script src='/assets/link.js'></script></script><script src='/assets/newwindow.js'></script></script><script src='/assets/tagselect.js'></script><link rel=\"stylesheet\" href='/assets/link.css'><link rel=\"stylesheet\" href='/assets/tagbreathe.css'>",
+    "allHead":"<script src='/plugins/Theme.js'></script></script><script src='/assets/vercount.js'></script></script><script src='/assets/link.js'></script></script><script src='/assets/newwindow.js'></script></script><script src='/assets/tagselect.js'></script><link rel=\"stylesheet\" href='/assets/link.css'><link rel=\"stylesheet\" href='/assets/tagbreathe.css'></script><script src='/plugins/rain.js'></script>",
     "script":"<script src='/plugins/ArticleTOC.js'></script><script src='/assets/lightbox.js'></script><script src='/assets/date.js'></script>",
     "singlePage":["about","link"]
 }
