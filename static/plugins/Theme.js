@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const THEME_BG_MODE_MOBILE = 'video';  // 'video' | 'image' | 'auto'
 
     // 资源路径（相对 docs/）
-    const THEME_BG_IMAGE_DESKTOP = '/img/电脑4.webp';
+    const THEME_BG_IMAGE_DESKTOP = 'https://cdn.jsdelivr.net/gh/lang363/lang363.github.io@main/static/img/%E7%94%B5%E8%84%91C.jpg';
     const THEME_BG_VIDEO_DESKTOP = '';
-    const THEME_BG_IMAGE_MOBILE = '/img/电脑4.webp'; // 建议换更小体积的图片
+    const THEME_BG_IMAGE_MOBILE = 'https://cdn.jsdelivr.net/gh/lang363/lang363.github.io@main/static/img/%E7%94%B5%E8%84%91C.jpg'; // 建议换更小体积的图片
     const THEME_BG_VIDEO_MOBILE = ''; // 手机端如需视频可换更小体积
 
     // 更稳：优先使用 currentScript（某些环境 querySelector 取不到自己）
