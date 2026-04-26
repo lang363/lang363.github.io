@@ -7,13 +7,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // - image: 仅图片背景
     // - auto : 若“省流量/减少动态效果”则用图片，否则用视频
     const MOBILE_BREAKPOINT_PX = 720;
-    const THEME_BG_MODE_DESKTOP = 'video'; // 'video' | 'image' | 'auto'
-    const THEME_BG_MODE_MOBILE = 'video';  // 'video' | 'image' | 'auto'
+    const THEME_BG_MODE_DESKTOP = 'image'; // 'video' | 'image' | 'auto'
+    const THEME_BG_MODE_MOBILE = 'image';  // 'video' | 'image' | 'auto'
 
     // 资源路径（相对 docs/）
-    const THEME_BG_IMAGE_DESKTOP = 'https://cdn.jsdelivr.net/gh/lang363/lang363.github.io@main/static/pictures/%E6%A3%AE%E6%9E%97.jpeg';
+    const THEME_BG_IMAGE_DESKTOP = '/pictures/森林.jpeg';
     const THEME_BG_VIDEO_DESKTOP = '';
-    const THEME_BG_IMAGE_MOBILE = 'https://cdn.jsdelivr.net/gh/lang363/lang363.github.io@main/static/pictures/%E6%A3%AE%E6%9E%97.jpeg'; // 建议换更小体积的图片
+    const THEME_BG_IMAGE_MOBILE = '/pictures/森林.jpeg'; // 建议换更小体积的图片
     const THEME_BG_VIDEO_MOBILE = ''; // 手机端如需视频可换更小体积
 
     // 更稳：优先使用 currentScript（某些环境 querySelector 取不到自己）
