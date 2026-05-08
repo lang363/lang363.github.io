@@ -41,9 +41,3 @@ html {
     scrollbar-width: thin;
 }
 
-/* 让滚动条以覆盖模式显示，不占用布局空间 */
-.your-container {
-    overflow-y: overlay;  /* 或 overflow: overlay */
-    scrollbar-gutter: stable; /* 可选：防止布局抖动 */
-}
-
