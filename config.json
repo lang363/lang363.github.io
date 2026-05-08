@@ -5,7 +5,7 @@
     "GMEEK_VERSION":"main",
     "homeUrl":"https://smy.041206.xyz",
     "startSite":"04/19/2026",
-    "onePageListNum":15,
+    "onePageListNum":5,
     "commentLabelColor":"#006b75",
     "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
     "i18n":"CN",
