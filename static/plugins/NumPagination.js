@@ -1,6 +1,6 @@
 
 // 填入每页显示的文章数
-var itemsPerPage = 15;
+var itemsPerPage = 5;
 
 //填入自定义页面的数量
 var custompages = 0;
