@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         /* 图标：放在名字这一行的右侧 */
-        /*#header .title-right {
+        #header .title-right {
             grid-column: 3;
             grid-row: 2;
             justify-self: end;
@@ -227,35 +227,7 @@ document.addEventListener('DOMContentLoaded', function() {
             gap: 10px;
             align-items: center;
             opacity: 0.9;
-        }*/
-        #header {
-  display: flex;
-  flex-direction: column;  /* 垂直排列 */
-  align-items: center;     /* 水平居中 */
-  gap: 8px;                /* 名字和图标间距 */
-}
-
-/* 名字样式 */
-#header .name {
-  /* 你的原有名字样式 */
-}
-
-/* 图标容器 - 放在名字下方 */
-#header .title-right {
-  /* 移除原来的 grid 定位 */
-  grid-column: auto;
-  grid-row: auto;
-  justify-self: auto;
-  align-self: auto;
-  
-  /* 改为 flex 居中 */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin: 0 !important;
-  opacity: 0.9;
-}
+        }
 
 
         html {    
@@ -524,14 +496,14 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         /* 代码块 */
-        /*.markdown-body .highlight pre, .markdown-body pre {
+        .markdown-body .highlight pre, .markdown-body pre {
             color: rgb(0, 0, 0);          /* 代码块内代码颜色 */
             background-color: rgba(245, 246, 248, 0.92);
             border: 1px solid rgba(255, 255, 255, 0.45);
             box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
             padding-top: 20px; 
             border-radius: 8px;
-        }*/
+        }
 
         /* 行内代码 */
         .markdown-body code, .markdown-body tt {
