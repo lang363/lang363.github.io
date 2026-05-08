@@ -504,27 +504,6 @@ document.addEventListener('DOMContentLoaded', function() {
             padding-top: 20px; 
             border-radius: 8px;
         }*/
-        [data-color-mode=light][data-light-theme=dark],
-[data-color-mode=light][data-light-theme=dark]::selection,
-[data-color-mode=dark][data-dark-theme=dark],
-[data-color-mode=dark][data-dark-theme=dark]::selection {
-    --markdown-pre-bgColor: #27282d;/* 增加 */
-	--markdown-pre-shadowColor: #00000026;/* 增加 */
-}
-:root {
-    --markdown-pre-bgColor: #f6f8fa;/* 增加 */
-	--markdown-pre-shadowColor: #5f5f5f26;/* 增加 */
-}
-.markdown-body .highlight pre, .markdown-body pre {
-	padding: 16px;
-	overflow: auto;
-	font-size: 85%;
-	line-height: 1.45;
-	color: var(--fgColor-default, var(--color-fg-default));
-	border-radius: 6px;
-	background-color: var(--markdown-pre-bgColor);/* 增加 */
-	box-shadow: 4px 5px 14px 0 var(--markdown-pre-shadowColor) inset;/* 增加 */
-}
 
         /* 行内代码 */
         .markdown-body code, .markdown-body tt {
