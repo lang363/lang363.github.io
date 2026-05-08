@@ -1,4 +1,4 @@
-## Fate gathers and disperses naturally.
+### Fate gathers and disperses naturally.
 
-## 缘聚缘散，顺其自然。
+### 缘聚缘散，顺其自然。
 —— Unknown
