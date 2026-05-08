@@ -40,3 +40,9 @@ html {
     scrollbar-color: #97d3ffa1 transparent;
     scrollbar-width: thin;
 }
+
+
+
+html {
+  overflow-y: scroll;
+}
